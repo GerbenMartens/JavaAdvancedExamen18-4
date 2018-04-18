@@ -2,7 +2,12 @@ package edu.ap.spring;
 
 import java.awt.Point;
 import java.util.*;
+import java.util.function.IntConsumer;
+import java.util.stream.Collectors;
+
 import org.springframework.stereotype.Component;
+
+import edu.ap.lambda.Person;
 
 @Component
 public class Exam {
@@ -11,7 +16,10 @@ public class Exam {
 	// priemgetallen terug te geven
 	// 2 punten
 	public int[] getPrimes(int[] numbers) {
-		
+		numbers = Arrays.stream(numbers)
+				
+
+		System.out.println("");
 	}
 	
 	// Maak gebruik van lambdas en streams alle lowercase characters
